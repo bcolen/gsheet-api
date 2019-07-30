@@ -13,6 +13,7 @@ pip install gsheet-api
 - Credentials can be entered as a dictionary or a file path to a json file, both will work.
 
 ## Usage Example
+*Required arguments are defined in the "Available Methods" section*
 ```python
 from gsheet_api import GSheetAPI
 
