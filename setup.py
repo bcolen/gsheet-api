@@ -20,6 +20,12 @@ setup(
     keywords="google sheet api pandas dataframe",
     packages=['gsheet_api'],
     url="https://github.com/brandenc40/gsheet-api",
+    install_requires=[
+        "gspread",
+        "gspread_dataframe",
+        "pytz",
+        "oauth2client"
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 2",
