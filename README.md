@@ -13,20 +13,20 @@ pip install gsheet-api
 - Credentials can be entered as a dictionary or a file path to a json file, both will work.
 
 ## Usage Example
-*Required arguments are defined in the "Available Methods" section*
+**\*\*Required arguments are defined in the "Available Methods" section**
 ```python
 from gsheet_api import GSheetAPI
 
-gsheet = GSheetAPI(..)        # initialize the class
-gsheet.sheet_to_df(..)        # import data from the sheet to a Pandas DataFrame
+gsheet = GSheetAPI(**)        # initialize the class
+gsheet.sheet_to_df(**)        # import data from the sheet to a Pandas DataFrame
 
-gsheet.change_gsheet(..)      # switch to a new Google Sheet to work off of
-gsheet.get_cell(..)           # get the contents of a single cell
+gsheet.change_gsheet(**)      # switch to a new Google Sheet to work off of
+gsheet.get_cell(**)           # get the contents of a single cell
 
-gsheet.change_tab(..)         # switch to a new tab in the current working Google Sheet
-gsheet.set_cell(..)           # set the value of a single cell
-gsheet.df_to_sheet(..)        # export a Pandas DataFrame to the current working sheet
-gsheet.timestamp_to_cell(..)  # export a timestamp to a single cell in the sheet
+gsheet.change_tab(**)         # switch to a new tab in the current working Google Sheet
+gsheet.set_cell(**)           # set the value of a single cell
+gsheet.df_to_sheet(**)        # export a Pandas DataFrame to the current working sheet
+gsheet.timestamp_to_cell(**)  # export a timestamp to a single cell in the sheet
 ```
 
 ## Available Methods
