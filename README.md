@@ -1,6 +1,11 @@
 # gsheet-api
 Easily and efficiently manage a Google Sheet.
 
+## Install
+```sh
+pip install gsheet-api
+```
+
 ## Notes
 - Credentials required are the Google Service account json file
   - [Creating a Google Serivice Key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)
@@ -9,6 +14,8 @@ Easily and efficiently manage a Google Sheet.
 
 ## Usage Example
 ```python
+from gsheet_api import GSheetAPI
+
 gsheet = GSheetAPI(..)        # initialize the class
 gsheet.sheet_to_df(..)        # import data from the sheet to a Pandas DataFrame
 
@@ -21,7 +28,7 @@ gsheet.df_to_sheet(..)        # export a Pandas DataFrame to the current working
 gsheet.timestamp_to_cell(..)  # export a timestamp to a single cell in the sheet
 ```
 
-## Methods defined here
+## Available Methods
 ```
 __init__(self, credentials, sheet_id, tab_name)
     Initializes the GSheetAPI and sets the current working sheet and current working tab
