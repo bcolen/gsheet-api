@@ -1,5 +1,11 @@
 test.py
 service.json
+
 .idea
-env
 .vscode
+
+env
+
+build/*
+dist/*
+gsheet_api.egg-info/*
