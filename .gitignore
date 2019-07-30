@@ -5,6 +5,7 @@ service.json
 .vscode
 
 env
+__pycache__
 
 build/*
 dist/*

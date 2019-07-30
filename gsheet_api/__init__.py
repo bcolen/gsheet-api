@@ -1,3 +1,1 @@
-from gsheet_api import GSheetAPI
-
-__all__ = ['GSheetAPI']
+from .gsheet_api import GSheetAPI
