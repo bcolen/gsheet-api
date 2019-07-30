@@ -11,7 +11,7 @@ def read(fname):
 
 setup(
     name="gsheet_api",
-    version="0.1.2",
+    version="0.1.3",
     author="Branden Colen",
     author_email="brandencolen@gmail.com",
     description=("Easily and efficiently manage a Google Sheet"),
